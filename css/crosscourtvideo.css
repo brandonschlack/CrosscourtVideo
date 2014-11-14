@@ -1,0 +1,17 @@
+/* Navigation */
+#navigation {
+    background-color: #363636;
+}
+
+#navigation a {
+    color: #ebebeb;
+}
+
+#navigation .active a {
+    color: #363636;
+}
+
+#navigation a:hover, #navigation a:focus {
+    color: #363636;
+    background-color: #ebebeb;
+}
