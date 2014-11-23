@@ -1,37 +1,116 @@
 body {
-    background-color: #16355A;
-
+    background-color: #16355a;
     font-family: "Roboto", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #f2f2f2;
-    /*padding-top: 50px;*/
+    padding-top: 50px;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
-
 #hero-graphic {
     margin-left: auto;
     margin-right: auto;
 }
+.centered {
+    text-align: center;
+}
 
 /* Navigation */
 #navigation {
-    background: rgba(0,0,0,0.6);
+    background-color: #666;
+    box-shadow: 0 5px 3px black;
+    min-height: 60px;
+    border: none;
 }
-
+#navigation li > a {
+    line-height: 30px;
+}
 #navigation a {
-    color: #ebebeb;
+    color: #f2f2f2;
 }
-#navigation a.navbar-brand {
+#navbrand {
     font-family: "Dancing Script", cursive;
+    padding: 5px;
+    line-height: 30px;
+    height: auto;
+    margin-right: 10px;
 }
-#navigation .active a {
-    color: #363636;
+#navigation .navbar-nav a:active, #navigation .navbar-nav a:hover, #navigation .navbar-nav a:focus {
+    color: #cfdc2a;
+    background-color: #16355a;
+}
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    color: #000;
+}
+h1, .h1 {
+    font-size: 48px;
+}
+h3, .h3 {
+    font-size: 32px;
 }
 
-#navigation a:hover, #navigation a:focus {
-    color: #363636;
+/* Features */
+#features {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10%;
+    margin-bottom: 10px;
     background-color: #ebebeb;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    min-height: 500px;
+}
+/* Card */
+.card {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: #ebebeb;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    min-height: 500px;
+}
+#pricing {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pricing > div.container {
+    padding: 0;
+}
+.pricing-tab {
+    background-color: #ebebeb;
+    color: #000;
+    border-radius: 10px;
+}
+
+/* Footer */
+#footerwrap {
+    background-color: #2f2f2f;
+    color: #f2f2f2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+#footerwrap h3 {
+    font-size: 28px;
+    color: white;
+}
+
+#footerwrap p {
+    color: white;
+    font-size: 18px;
 }
