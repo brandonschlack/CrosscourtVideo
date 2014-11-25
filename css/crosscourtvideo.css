@@ -55,7 +55,7 @@ h3, .h3 {
 }
 
 /* Features */
-#features {
+#features, #pricing {
     position: relative;
     width: 90%;
     margin-left: auto;
@@ -66,8 +66,14 @@ h3, .h3 {
     color: #000;
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
-    min-height: 500px;
 }
+#pricing {
+    margin-top: 10% !important;
+}
+.feature-tab {
+    padding: 15px;
+}
+
 /* Card */
 .card {
     position: relative;
